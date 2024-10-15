@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x={
+            name:"Byte Ror",
+            address:"pune",
+            "friends":["A","B","C","D"]
+        }
+       
+            console.log(x);
+    var y=["A","B","C","D"];
+    y.forEach(element=>{
+        console.log(element);
+    })
+    var teachers=["AA","BB","CC","DD"];
+    for(teacher of teachers){
+        console.log(teacher);
+    }
+     var x={
+        name:"Byte Ror",
+        address:"Pune",
+        myFuncA:function(){
+            console.log(this.name)
+
+        },
+        myFuncB:function(){
+            console.log(this.address)
+
+        },
+        myFuncC:function(){
+
+        }
+
+     }
+        
+   console.log(x.myFuncA());
+   console.log(x.myFuncB());
+        
+    </script>
+</body>
+</html>
